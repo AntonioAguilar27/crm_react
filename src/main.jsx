@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'; // Importar de esta manera es más común
+import ErrorPage from './components/ErrorPage';
 
 import './index.css'
 
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 
-import NuevoCliente from './pages/NuevoCliente';
+import NuevoCliente, { action as nuevoClienteAction} from './pages/NuevoCliente';
 import Layout from './components/Layout'
 import Index , {loader as clientesLoader} from './pages/Index';
 
@@ -17,11 +18,13 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Index/>,
-        loader: clientesLoader
+        loader: clientesLoader,
+        errorElement: <ErrorPage/>
       },
       {
         path: '/clientes/nuevo',
-        element: <NuevoCliente/>
+        element: <NuevoCliente/>,
+        action : nuevoClienteAction
       }
     ]
   }, 

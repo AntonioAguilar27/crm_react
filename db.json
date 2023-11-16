@@ -1,0 +1,47 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Pedro Rodriguez",
+      "telefono": 102013313,
+      "email": "pedro@elsinaloense.com",
+      "empresa": "El sinaloense"
+    },
+    {
+      "id": 2,
+      "nombre": "Daniel Beltran",
+      "telefono": 138198313,
+      "email": "daniel@laconsentida.com",
+      "empresa": "La consentida"
+    },
+    {
+      "id": 3,
+      "nombre": "Michel Hernandez",
+      "telefono": 31983913,
+      "email": "michel@laconsentida.com",
+      "empresa": "La consentida"
+    },
+    {
+      "id": 4,
+      "nombre": "Ceceña Medina",
+      "telefono": 319381983,
+      "email": "ceceña@laconsentida.com",
+      "empresa": "La consentida"
+    },
+    {
+      "id": 5,
+      "nombre": "Antonio Aguilar",
+      "telefono": 1398198938,
+      "email": "antonio@laconsentida.com",
+      "empresa": "La consentida"
+    },
+    {
+      "nombre": "prueba",
+      "empresa": "prueba",
+      "email": "correo@correo.com",
+      "telefono": "111",
+      "notas": "prueba",
+      "id": 6
+    }
+  ]
+}

@@ -42,6 +42,14 @@
       "telefono": "111",
       "notas": "prueba",
       "id": 6
+    },
+    {
+      "nombre": "prueba",
+      "empresa": "aaa",
+      "email": "aaaaa@correo.com",
+      "telefono": "666",
+      "notas": "ssss",
+      "id": 7
     }
   ]
 }

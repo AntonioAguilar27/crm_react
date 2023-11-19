@@ -12,10 +12,10 @@ export async function loader({params}){
             statusText: 'no hay resultados'
         })
     }
-    return cliente;
+    return cliente
 }
 
-export async function action(request, params){
+export async function action({request, params}){
 
     const formData = await request.formData()
     const datos = Object.fromEntries(formData)
@@ -65,6 +65,7 @@ function EditarCliente() {
            {errores?.length && errores.map( (error, i) =>  <Error key={i}>{error}</Error> )}
             <Form
                 method='post'
+                noValidate
             >
                 <Formulario
                     cliente={cliente}

@@ -1,11 +1,12 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Pedro Rodriguez",
-      "telefono": 102013313,
+      "nombre": "Pedro Rodriguez 2",
+      "empresa": "El sinaloense",
       "email": "pedro@elsinaloense.com",
-      "empresa": "El sinaloense"
+      "telefono": "102013313",
+      "notas": "pruebas",
+      "id": 1
     },
     {
       "id": 2,

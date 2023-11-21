@@ -1,14 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Pedro Rodriguez 2",
-      "empresa": "El sinaloense",
-      "email": "pedro@elsinaloense.com",
-      "telefono": "102013313",
-      "notas": "pruebas",
-      "id": 1
-    },
-    {
       "id": 2,
       "nombre": "Daniel Beltran",
       "telefono": 138198313,
